@@ -1,36 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 body {
   background-color: #354f52;
 }
 
 .header {
+  background-color: #2f3e46;
+  color: #cad2c5;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  background-color: #2f3e46;
-  font-weight: 400;
-  box-shadow: 0px 0px 3px 40px #2f3e46;
+  border-bottom: #84a98c solid 1px;
 }
 
-h1 {
-  font-size: 44pt;
-}
-
-h2 {
-  font-size: 20pt;
-}
-
-ul {
-  text-align: center;
-  list-style-type: none;
-  margin-top: 50pt;
-}
-
-.header,
-a {
-  color: #cad2c5;
-}
-
-a {
-  text-decoration: none;
+.header1 {
+  font-size: 64px;
   font-weight: 200;
-  font-size: 14pt;
+  padding: 20px;
+}
+
+.header2 {
+  font-size: 32px;
+  font-weight: 200;
+  padding: 10px;
 }
